@@ -601,6 +601,10 @@ input[type="checkbox"] { display: inline; }
    min-height: 1px;
    float: left;
 }
+
+.column, p span {
+    color: #11ABB0;
+}
 .column.centered, .columns.centered  {
     float: none;
     margin: 0 auto;

@@ -30,7 +30,7 @@
    header .banner { padding-bottom: 12px; }
    header .banner-text h1 {
       font: 78px/1.1em 'opensans-bold', sans-serif;
-      letter-spacing: -1px;      
+      letter-spacing: -1px;
    }
    header .banner-text h3 {
       font: 17px/1.9em 'librebaskerville-regular', serif;
@@ -51,7 +51,7 @@
    ------------------------------------------------------------------- */
    #about .profile-pic {
       width: 114px;
-      height: 114px;
+      height: 122px;
       margin-left: 12px;
    }
    #about .contact-details { width: 50%; }
@@ -60,7 +60,7 @@
    /* Resume Section
    ------------------------------------------------------------------- */
    #resume h1 { font: 16px/24px 'opensans-bold', sans-serif; }
-   #resume .main-col { padding-right: 5%; }   
+   #resume .main-col { padding-right: 5%; }
 
    /* Testimonials Section
    ------------------------------------------------------------------- */
@@ -70,7 +70,7 @@
    }
    #testimonials blockquote p {
       font-size: 22px;
-      line-height: 46px;      
+      line-height: 46px;
    }
 
     /* Call to Action Section

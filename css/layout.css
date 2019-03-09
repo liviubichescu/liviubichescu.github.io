@@ -279,7 +279,7 @@ ul#nav li.current a {
 
 #resume {
     background: #fff;
-    padding-top: 90px;
+    padding-top: 60px;
     padding-bottom: 72px;
     overflow: hidden;
 }
@@ -307,18 +307,16 @@ ul#nav li.current a {
     font: 25px/30px 'opensans-bold', sans-serif;
 }
 
-#resume .header-col {
-    padding-top: 9px;
-}
-
 #resume .main-col {
     padding-right: 10%;
 }
 
-.education, .work, .other_classes {
+.education, .work, .other_classes, .skill {
     margin-bottom: 48px;
-    padding-bottom: 24px;
     border-bottom: 1px solid #E8E8E8;
+}
+.other_classes {
+    padding-top: 30px;
 }
 
 #resume .info {
@@ -342,6 +340,72 @@ ul#nav li.current a {
 /*	Skill Bars
 /*----------------------------------------------*/
 
+* {
+    box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.col_skills {
+    float: left;
+    width: 25%;
+}
+.col_skills h2{
+    margin-bottom: 0;
+    padding-top: 10px;
+}
+.col_skills img{
+    width:50px;
+    height:50px;
+}
+.container_skill h2{
+    font-size: 20px;
+    color: #11ABB0;
+    opacity: 0.7;
+}
+.row_skills{
+    padding-bottom:30px;
+
+}
+
+.row_skills h2{
+    font-size: 18px;
+    color: black;
+    opacity: 1;
+
+}
+
+
+/* Clear floats after the columns */
+.row_skills:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 768px) {
+    .col_skills {
+        width: 50%;
+        font-size: 12px;
+    }
+    .col_skills h2{
+        font-size: 15px;
+    }
+    .col_skills img{
+        width:100px;
+        height:100px;
+    }
+}
+
+
+/*----------------------------------------------*/
+/*	Languages Bars
+/*----------------------------------------------*/
+
+.bars .languages {
+    margin-top: 36px;
+    list-style: none;
+}
 .bars {
     width: 95%;
     float: left;
@@ -385,280 +449,6 @@ ul#nav li.current a {
     line-height: 42px;
     border-radius: 3px 0 0 3px;
 }
-
-.java {
-    width: 85%;
-    -moz-animation: java 2s ease;
-    -webkit-animation: java 2s ease;
-}
-
-.sql {
-    width: 55%;
-    -moz-animation: sql 2s ease;
-    -webkit-animation: sql 2s ease;
-}
-
-.spring {
-    width: 64%;
-    -moz-animation: spring 2s ease;
-    -webkit-animation: spring 2s ease;
-}
-
-.springDataJpa {
-    width: 70%;
-    -moz-animation: springDataJpa 2s ease;
-    -webkit-animation: springDataJpa 2s ease;
-}
-
-.testing {
-    width: 60%;
-    -moz-animation: testing 2s ease;
-    -webkit-animation: testing 2s ease;
-}
-
-.angular {
-    width: 72%;
-    -moz-animation: angular 2s ease;
-    -webkit-animation: angular 2s ease;
-}
-
-.html5 {
-    width: 82%;
-    -moz-animation: html5 2s ease;
-    -webkit-animation: html5 2s ease;
-}
-
-.css {
-    width: 70%;
-    -moz-animation: css 2s ease;
-    -webkit-animation: css 2s ease;
-}
-
-.ide {
-    width: 75%;
-    -moz-animation: ide 2s ease;
-    -webkit-animation: ide 2s ease;
-}
-
-.db {
-    width: 63%;
-    -moz-animation: db 2s ease;
-    -webkit-animation: db 2s ease;
-}
-
-.vcs {
-    width: 80%;
-    -moz-animation: vcs 2s ease;
-    -webkit-animation: vcs 2s ease;
-}
-
-@-moz-keyframes java {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 85%;
-    }
-}
-
-@-moz-keyframes sql {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 55%;
-    }
-}
-
-@-moz-keyframes spring {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 64%;
-    }
-}
-
-@-moz-keyframes springDataJpa {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 70%;
-    }
-}
-
-@-moz-keyframes testing {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 60%;
-    }
-}
-
-@-moz-keyframes angular {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 72%;
-    }
-}
-
-@-moz-keyframes html5 {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 82%;
-    }
-}
-
-@-moz-keyframes css {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 70%;
-    }
-}
-
-@-moz-keyframes ide {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 75%;
-    }
-}
-
-@-moz-keyframes db {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 63%;
-    }
-}
-
-@-moz-keyframes vcs {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 80%;
-    }
-}
-
-@-webkit-keyframes java {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 85%;
-    }
-}
-
-@-webkit-keyframes sql {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 55%;
-    }
-}
-
-@-webkit-keyframes spring {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 64%;
-    }
-}
-
-@-webkit-keyframes springDataJpa {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 70%;
-    }
-}
-
-@-webkit-keyframes testing {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 60%;
-    }
-}
-
-@-webkit-keyframes angular {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 72%;
-    }
-}
-
-@-webkit-keyframes html5 {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 82%;
-    }
-}
-
-@-webkit-keyframes css {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 70%;
-    }
-}
-
-@-webkit-keyframes ide {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 75%;
-    }
-}
-
-@-webkit-keyframes db {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 63%;
-    }
-}
-
-@-webkit-keyframes vcs {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 80%;
-    }
-}
-
-/*----------------------------------------------*/
-/*	Languages Bars
-/*----------------------------------------------*/
-
-.bars .languages {
-    margin-top: 36px;
-    list-style: none;
-}
-
 .english {
     width: 90%;
     -moz-animation: english 2s ease;
@@ -730,6 +520,55 @@ ul#nav li.current a {
         width: 50%;
     }
 }
+
+
+
+
+/* ------------------------------------------------------------------ */
+/* e. Portfolio Section
+/* ------------------------------------------------------------------ */
+
+#portfolio {
+    background: #ebeeee;
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
+#portfolio h1 {
+    font: 25px/24px 'opensans-semibold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 48px;
+    color: black;
+}
+#portfolio h3 {
+    color: #F06000;
+    font-size: 25px;
+}
+.proj_description{
+    font-size: 18px;
+}
+.proj_technologies{
+    font-weight: bold;
+    padding-top: 10px;
+    color: #11ABB0;
+}
+p.project_tech{
+    justify-content: center;
+    padding-left: 60px;
+    font-size: 18px;
+    /*font-style: italic;*/
+    font-weight: normal;
+    padding-bottom: 30px;
+    color: #95A3A3;
+    margin: 0;
+
+}
+.twelve_columns{
+    padding-left: 50px;
+}
+
+
 
 /* ------------------------------------------------------------------ */
 /* f. Call To Action Section

@@ -534,7 +534,6 @@ ul#nav li.current a {
     color: #737373;
     padding-top: 90px;
     padding-bottom: 60px;
-    /*padding-right: 10%;*/
 }
 #portfolio h1 {
     font: 25px/24px 'opensans-semibold', sans-serif;
@@ -561,7 +560,6 @@ p.project_tech{
     justify-content: center;
     padding-left: 60px;
     font-size: 18px;
-    /*font-style: italic;*/
     font-weight: normal;
     padding-bottom: 30px;
     color: #000000;
@@ -581,6 +579,7 @@ p.project_tech{
         font-size: 20px;
         letter-spacing: 0.5px;
     }
+
 
 }
 

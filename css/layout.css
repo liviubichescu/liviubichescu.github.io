@@ -374,7 +374,6 @@ ul#nav li.current a {
 
 }
 
-
 /* Clear floats after the columns */
 .row_skills:after {
     content: "";
@@ -382,18 +381,22 @@ ul#nav li.current a {
     clear: both;
 }
 
-/* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
+/* Responsive layout - skills*/
 @media screen and (max-width: 768px) {
     .col_skills {
-        width: 50%;
+        width: 33%;
         font-size: 12px;
+        text-align: center;
+    }
+    .container_skill h2{
+        font-size: 16px;
     }
     .col_skills h2{
         font-size: 15px;
     }
     .col_skills img{
-        width:100px;
-        height:100px;
+        width:50px;
+        height:50px;
     }
 }
 
@@ -522,28 +525,29 @@ ul#nav li.current a {
 }
 
 
-
-
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-    background: #ebeeee;
+    background: #f3f6f6;
+    color: #737373;
     padding-top: 90px;
     padding-bottom: 60px;
+    /*padding-right: 10%;*/
 }
 #portfolio h1 {
     font: 25px/24px 'opensans-semibold', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
     text-align: center;
-    margin-bottom: 48px;
+    margin-bottom: 30px;
     color: black;
 }
 #portfolio h3 {
     color: #F06000;
     font-size: 25px;
+    margin-top: 20px;
 }
 .proj_description{
     font-size: 18px;
@@ -560,7 +564,7 @@ p.project_tech{
     /*font-style: italic;*/
     font-weight: normal;
     padding-bottom: 30px;
-    color: #95A3A3;
+    color: #000000;
     margin: 0;
 
 }
@@ -568,6 +572,17 @@ p.project_tech{
     padding-left: 50px;
 }
 
+/* Responsive layout - portofolio*/
+@media screen and (max-width: 768px) {
+    .proj_description, p.project_tech {
+        font-size: 100%;
+    }
+    #portfolio h1{
+        font-size: 20px;
+        letter-spacing: 0.5px;
+    }
+
+}
 
 
 /* ------------------------------------------------------------------ */
@@ -653,7 +668,6 @@ p.project_tech{
 #contact a:hover, #contact a:focus {
     color: #fff;
 }
-
 #contact h1 {
     font: 18px/24px 'opensans-bold', sans-serif;
     text-transform: uppercase;

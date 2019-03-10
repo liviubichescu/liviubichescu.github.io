@@ -456,13 +456,13 @@ ul#nav li.current a {
 }
 
 .spanish {
-    width: 65%;
+    width: 55%;
     -moz-animation: spanish 2s ease;
     -webkit-animation: spanish 2s ease;
 }
 
 .french {
-    width: 50%;
+    width: 35%;
     -moz-animation: french 2s ease;
     -webkit-animation: french 2s ease;
 }
@@ -481,7 +481,7 @@ ul#nav li.current a {
         width: 0;
     }
     100% {
-        width: 65%;
+        width: 55%;
     }
 }
 
@@ -490,7 +490,7 @@ ul#nav li.current a {
         width: 0;
     }
     100% {
-        width: 50%;
+        width: 35%;
     }
 }
 
@@ -508,7 +508,7 @@ ul#nav li.current a {
         width: 0;
     }
     100% {
-        width: 65%;
+        width: 55%;
     }
 }
 
@@ -517,7 +517,7 @@ ul#nav li.current a {
         width: 0;
     }
     100% {
-        width: 50%;
+        width: 35%;
     }
 }
 

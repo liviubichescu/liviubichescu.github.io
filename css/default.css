@@ -1051,6 +1051,7 @@ properly.
         width: 460px;
         margin: 0 auto;
         padding: 0;
+        font-size: 15px;
     }
 
     .column, .columns {
@@ -1065,7 +1066,7 @@ properly.
     .row .row {
         width: auto;
         max-width: none;
-        margin: 0 0px;
+        margin: 0 0;
     }
 
     [class*="column"] + [class*="column"]:last-child {
@@ -1128,6 +1129,7 @@ properly.
 
     .row {
         width: auto;
+        font-size: 14px;
     }
 
 }

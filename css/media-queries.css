@@ -236,6 +236,7 @@
    #resume h3, #resume .info {
       text-align: center;
       padding-bottom: 10px;
+      font-size: 16px;
    }
       
    .bars { width: 100%; }

@@ -189,8 +189,11 @@ h4 {
 }
 
 h5 {
+    padding-top: 5px;
+    padding-bottom: 10px;
     font-size: 18px;
     line-height: 30px;
+    color: #11ABB0;
 }
 
 h6 {
